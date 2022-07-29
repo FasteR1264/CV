@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    border: none;
+    border-top: 8px dotted #EAF6F6;
+    width: 5%;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 50px;
+}
+
+.bottom-cloud {
+    bottom: 300px;
+    left: 30%;
+    position: absolute;
+}
+
+.profile {
+     width: 30%;
+    margin: 0 auto;
+    padding: 100px 0 100px;
+}
+
+.skills-header {
+    margin-top: 100px;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.computer-img {
+    float: left;
+    margin-right: 30px;
+    height: 150px;
+}
+
+.chillies-img {
+    float: right;
+    margin-left: 30px;
+    height: 150px;
+}
+
+.btn {
+    background: linear-gradient(#11cdd4, #11999e);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 2.3;
+    margin: 50px 0 100px 0;
+    padding: 0 30px;
+}
+
+.btn:hover {
+    background: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.contact-me {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact-header {
+    margin-top: 100px;
+}
+
+.contact-descr {
+    margin-top: 50px;
+}
+
+.footer-link {
+    color: #11999e;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.footer-descr {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    margin-top: 30px;
+}
